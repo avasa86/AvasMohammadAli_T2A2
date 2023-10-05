@@ -102,20 +102,5 @@ ACID Compliant: SQLite3 is ACID (Atomicity, Consistency, Isolation, Durability) 
 
 
    
-Cleaner Codebase: ORM promotes cleaner, more organized code by separating database interaction logic from application logic. This makes the codebase easier to understand and maintain.
-
-Reduced SQL Injection Risks:
-
-   
-Parameterized Queries: ORM tools use parameterized queries by default, which helps prevent SQL injection attacks. This enhances the security of the application.
-
-Simplified Testing:
-
-   
-Mocking and Testing Support: ORMs make it easier to write unit tests for database interactions by providing mechanisms for mocking database operations.
-
-Easy Version Control and Collaboration:
-
-   
-Versioning and Collaboration: Code written with an ORM is typically more modular and easier to version control, facilitating collaboration among developers.
+- **Cleaner Codebase:** ORM promotes cleaner, more organized code by separating database interaction logic from application logic. This makes the codebase easier to understand and maintain.
 
