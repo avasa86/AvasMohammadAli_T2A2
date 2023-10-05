@@ -105,3 +105,10 @@ After going through the requirements, and capturing all the requiring details, w
 ## ER Diagram
 The ER Diagram looks like as follows:
 ![ER Diagram of the class management system](/docs/ER_Diagram.png)
+
+## ER Diagram Explanation:
+- **Student Enrolls in a Course(Many-to-Many):** One student can enroll in many courses. A course can have more than one student.
+- **Student has a Parent(Many-to-Many):** A parent can have more than one child in the school. The child can have at most one parent in the course.
+- **Course has assignment(One-to-Many):** A course has many assignments but an assignment belongs to only one course
+- **Teacher teaches course(One-to-Many):** A teacher can teach many courses but a teacher can have at most one course
+- **Student Has Grades from the assignment(Many-to-Many):** A student can have many assignment grades. The assignment may or may not have more than one student because the assignment maybe a group project for a particular course.
