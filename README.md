@@ -13,33 +13,33 @@ The participating entities are as follows:
 
 After going through the requirements, and capturing all the requiring details, we have the following in our statement:
 ### 1.Student
-- StudentId: stores the id of the student
-- StudentName: stores the student name
-- DateOfBirth: stores the date of birth of student
-- PhoneNumber: stores the PhoneNumber of students
-- Email: stores the email of the user
+- **StudentId**: stores the id of the student
+- **StudentName**: stores the student name
+- **DateOfBirth**: stores the date of birth of student
+- **PhoneNumber**: stores the PhoneNumber of students
+- **Email**: stores the email of the user
 
 ### 2.Teacher
-- TeacherId: stores the id of the teacher
-- TeacherName: stores the name of the teacher
-- DateOfBirth: stores the date of birth of the teacher
-- PhoneNumber: stores the PhoneNumber of the teacher
-- Email: stores the email of the user
+- **TeacherId**: stores the id of the teacher
+- **TeacherName**: stores the name of the teacher
+- **DateOfBirth**: stores the date of birth of the teacher
+- **PhoneNumber**: stores the PhoneNumber of the teacher
+- **Email**: stores the email of the user
 
 ### 3. Parent
-- ParentId: stores the id of the parent
-- ParentName: stores the name of the parent
-- DateOfBirth: parent details
+- **ParentId**: stores the id of the parent
+- **ParentName**: stores the name of the parent
+- **DateOfBirth**: parent details
 
 ### 4.Course
-- CourseId: stores the id of the course
-- CourseCode: stores the course code
-- CourseName: stores the name of the course
-- Description: A short description about the course
+- **CourseId**: stores the id of the course
+- **CourseCode**: stores the course code
+- **CourseName**: stores the name of the course
+- **Description**: A short description about the course
 
 ### 5.Assignment
-- AssignmentID: stores the id of the assignment
-- AssignmentName: stores name of the assignment
-- AssignmentDetails: stores the details of the assignment
+- **AssignmentID**: stores the id of the assignment
+- **AssignmentName**: stores name of the assignment
+- **AssignmentDetails**: stores the details of the assignment
 
 
