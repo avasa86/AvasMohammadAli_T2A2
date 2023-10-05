@@ -3,46 +3,6 @@
 ## Introduction
 This project aims to solve the problem of issues faced by University Students or High School students. We will be creating a Student Management System which which will help us in managing students, teachers, enrollment,grading system and assignment.
 
-We talk about the participating entities in this project.
-The participating entities are as follows:
-- Student
-- Teacher
-- Assignment
-- Grades
-- Parents
-
-After going through the requirements, and capturing all the requiring details, we have the following in our statement:
-### 1.Student
-- **StudentId**: stores the id of the student
-- **StudentName**: stores the student name
-- **DateOfBirth**: stores the date of birth of student
-- **PhoneNumber**: stores the PhoneNumber of students
-- **Email**: stores the email of the user
-
-### 2.Teacher
-- **TeacherId**: stores the id of the teacher
-- **TeacherName**: stores the name of the teacher
-- **DateOfBirth**: stores the date of birth of the teacher
-- **PhoneNumber**: stores the PhoneNumber of the teacher
-- **Email**: stores the email of the user
-
-### 3. Parent
-- **ParentId**: stores the id of the parent
-- **ParentName**: stores the name of the parent
-- **DateOfBirth**: parent details
-
-### 4.Course
-- **CourseId**: stores the id of the course
-- **CourseCode**: stores the course code
-- **CourseName**: stores the name of the course
-- **Description**: A short description about the course
-
-### 5.Assignment
-- **AssignmentID**: stores the id of the assignment
-- **AssignmentName**: stores name of the assignment
-- **AssignmentDetails**: stores the details of the assignment
-- **Full Marks**: stores the maximum marks of the assigment
-
 
 ## What we are trying to solve?
  - **Data Storage and tracking:** Keep track of student,teachers and data storage etc.
@@ -95,12 +55,49 @@ ACID Compliant: SQLite3 is ACID (Atomicity, Consistency, Isolation, Durability) 
    
 - **Code Reusability:** Developers can reuse object-oriented code for database operations, reducing the need to write repetitive SQL queries.
 
-   
 - **Faster Development:** ORM tools handle many aspects of database interaction, allowing developers to focus on application logic rather than low-level database operations.
    
 - **Database Independence:** Developers can switch between different database systems (e.g., MySQL, PostgreSQL, SQLite) without making significant changes to the application code. The ORM handles the database-specific details.
 
-
-   
 - **Cleaner Codebase:** ORM promotes cleaner, more organized code by separating database interaction logic from application logic. This makes the codebase easier to understand and maintain.
+
+We talk about the participating entities in this project.
+The participating entities are as follows:
+- Student
+- Teacher
+- Assignment
+- Grades
+- Parents
+
+After going through the requirements, and capturing all the requiring details, we have the following in our statement:
+### 1.Student
+- **StudentId**: stores the id of the student
+- **StudentName**: stores the student name
+- **DateOfBirth**: stores the date of birth of student
+- **PhoneNumber**: stores the PhoneNumber of students
+- **Email**: stores the email of the user
+
+### 2.Teacher
+- **TeacherId**: stores the id of the teacher
+- **TeacherName**: stores the name of the teacher
+- **DateOfBirth**: stores the date of birth of the teacher
+- **PhoneNumber**: stores the PhoneNumber of the teacher
+- **Email**: stores the email of the user
+
+### 3. Parent
+- **ParentId**: stores the id of the parent
+- **ParentName**: stores the name of the parent
+- **DateOfBirth**: parent details
+
+### 4.Course
+- **CourseId**: stores the id of the course
+- **CourseCode**: stores the course code
+- **CourseName**: stores the name of the course
+- **Description**: A short description about the course
+
+### 5.Assignment
+- **AssignmentID**: stores the id of the assignment
+- **AssignmentName**: stores name of the assignment
+- **AssignmentDetails**: stores the details of the assignment
+- **Full Marks**: stores the maximum marks of the assigment
 
