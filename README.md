@@ -101,3 +101,7 @@ After going through the requirements, and capturing all the requiring details, w
 - **AssignmentDetails**: stores the details of the assignment
 - **Full Marks**: stores the maximum marks of the assigment
 
+
+## ER Diagram
+The ER Diagram looks like as follows:
+![ER Diagram of the class management system](/docs/ER_Diagram.png)
