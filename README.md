@@ -41,5 +41,6 @@ After going through the requirements, and capturing all the requiring details, w
 - **AssignmentID**: stores the id of the assignment
 - **AssignmentName**: stores name of the assignment
 - **AssignmentDetails**: stores the details of the assignment
+- **Full Marks**: stores the maximum marks of the assigment
 
 
