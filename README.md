@@ -113,6 +113,83 @@ The ER Diagram looks like as follows:
 - **Teacher teaches course(One-to-Many):** A teacher can teach many courses but a teacher can have at most one course
 - **Student Has Grades from the assignment(Many-to-Many):** A student can have many assignment grades. The assignment may or may not have more than one student because the assignment maybe a group project for a particular course.
 
+## Endpoint documentation
+The endpoint documentation are as follows:
+### Student Endpoints:
+- **Get All Students:** GET /students
+
+- **Get Student by ID:** GET /students/{student_id}
+
+- **Create a Student:** POST /students
+
+- **Update a Student:** PUT /students/{student_id}
+
+- **Delete a Student:** DELETE /students/{student_id}
+
+---
+
+### Parent Endpoints:
+- **Get All Parents:** GET /parents
+
+- **Get Parent by ID:** GET /parents/{parent_id}
+
+- **Create a Parent:** POST /parents
+
+- **Update a Parent:** PUT /parents/{parent_id}
+
+- **Delete a Parent:** DELETE /parents/{parent_id}
+
+---
+
+### Teacher Endpoints:
+- **Get All Teachers:** GET /teachers
+
+- **Get Teacher by ID:** GET /teachers/{teacher_id}
+
+- **Create a Teacher:** POST /teachers
+
+- **Update a Teacher:** PUT /teachers/{teacher_id}
+
+- **Delete a Teacher:** DELETE /teachers/{teacher_id}
+
+---
+
+### Course Endpoints:
+- **Get All Courses:** GET /courses
+
+- **Get Course by ID:** GET /courses/{course_id}
+
+- **Create a Course:** POST /courses
+
+- **Update a Course:** PUT /courses/{course_id}
+
+- **Delete a Course:** DELETE /courses/{course_id}
+
+---
+
+### Assignment Endpoints:
+- **Get All Assignments:** GET /assignments
+
+- **Get Assignment by ID:** GET /assignments/{assignment_id}
+
+- **Create an Assignment:** POST /assignments
+
+- **Update an Assignment:** PUT /assignments/{assignment_id}
+
+- **Delete an Assignment:** DELETE /assignments/{assignment_id}
+
+---
+
+### Grades Endpoints:
+- **Get All Grades:** GET /grades
+
+- **Get Grade by ID:** GET /grades/{grade_id}
+
+- **Create a Grade:** POST /grades
+
+- **Update a Grade:** PUT /grades/{grade_id}
+
+- **Delete a Grade::** DELETE /grades/{grade_id}
 
 
 
