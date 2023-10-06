@@ -112,3 +112,8 @@ The ER Diagram looks like as follows:
 - **Course has assignment(One-to-Many):** A course has many assignments but an assignment belongs to only one course
 - **Teacher teaches course(One-to-Many):** A teacher can teach many courses but a teacher can have at most one course
 - **Student Has Grades from the assignment(Many-to-Many):** A student can have many assignment grades. The assignment may or may not have more than one student because the assignment maybe a group project for a particular course.
+
+
+
+
+
